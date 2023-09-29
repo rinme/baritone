@@ -1,4 +1,9 @@
--keep class *
+# Meteor
+-keep class * { *; }
+-keepattributes *
+
+
+
 
 -keepattributes Signature
 -keepattributes *Annotation*
