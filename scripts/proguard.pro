@@ -1,6 +1,5 @@
 # Meteor
 -keep class * { *; }
--keepattributes *
 
 
 
