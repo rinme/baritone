@@ -1,5 +1,5 @@
 # Meteor
--keep class * { *; }
+-keep class *
 
 
 
