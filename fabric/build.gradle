@@ -94,6 +94,9 @@ build.finalizedBy(createDist)
 publishing {
     publications {
         maven(MavenPublication) {
+            groupId "meteordevelopment"
+            artifactId "baritone"
+
             artifact "../dist/baritone-api-fabric-" + version + ".jar"
         }
     }
